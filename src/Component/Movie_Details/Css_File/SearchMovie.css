@@ -1,0 +1,31 @@
+
+
+#result:hover {
+  background-color: #aeb4ff;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  transform: scale(1.01);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+#bg-image {
+  background-image: url('/Cinema.jpg'); /* Adjust the path based on your image location */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+
+/* Smooth button transitions */
+.btn {
+  transition: transform 0.2s ease, box-shadow 0.3s ease;
+}
+
+.btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* For text clarity over backgrounds */
+.bg-opacity-50 {
+  backdrop-filter: blur(4px);
+}
