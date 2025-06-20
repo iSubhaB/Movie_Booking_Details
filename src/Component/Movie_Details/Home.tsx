@@ -30,7 +30,7 @@ export const HomeFPP = () => {
             Currently Running
           </Link>
           <Link to="/ticket" className="btn btn-primary btn-lg px-4 shadow">
-            Ticket Check
+            Book ticket
           </Link>
         </div>
       </div>
